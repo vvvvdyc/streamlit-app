@@ -35,7 +35,7 @@ var12 = st.number_input("_postCaprini评分:", min_value=None, max_value=None, v
 var13 = st.sidebar.slider("身高cm",min_value=10, max_value=260, value=150,step=1)
 var14 = st.number_input("基础收缩压:", min_value=None, max_value=None, value=0.000)
 var15 = st.number_input("丙泊酚mg:", min_value=None, max_value=None, value=0.000)
-var16 = st.number_input("术中最高心率次/分:", min_value=None, max_value=None, value=0.000)
+var16 = st.sidebar.slider("术中最高心率次/分:", min_value=10, max_value=200, value=70,step=1)
 var17 = st.number_input("BE(B):", min_value=None, max_value=None, value=0.000)
 var18 = st.number_input("追加止痛药（无=0,有=1）:", min_value=0, max_value=1, value=0)
 var19 = st.number_input("白球比1.2-2.4:", min_value=None, max_value=None, value=0.000)
