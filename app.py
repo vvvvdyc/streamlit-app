@@ -18,7 +18,7 @@ feature_names = ['拔管时间', '血管超声', '出量2：尿量ml', 'pco2_pos
        ]
 
 # Streamlit user interface
-st.title("Heart Disease Predictor")
+st.title("Recovery Predictor")
 
 var1 = st.number_input("拔管时间:", min_value=None, max_value=None, value=0.000)
 var2 = st.number_input("血管超声:", min_value=None, max_value=None, value=0.000)
